@@ -1,0 +1,546 @@
+
+{
+  "Version": 2,
+  "Load": {
+    "Base": {
+      "Image": {
+        "Path": "ThemeGenForLoader",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 70,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "BaseStrings": {
+      "CheckingWhitelist": "Checking whitelist...",
+      "ChangingWhitelist": "Changing whitelist...",
+      "DownloadingData": "Getting data...",
+      "CheckingData": "Checking files...",
+      "DownloadingDlls": "Updating DLLs...",
+      "DownloadingMonaco": "Downloading Monaco...",
+      "DownloadingCefSharp": "Downloading CefSharp...",
+      "DownloadingSQLite": "Installing SQLite...",
+      "JoiningDiscord": "Joining Discord...",
+      "Ready": "Complete!"
+    },
+    "Logo": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 150,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 16.0
+      },
+      "Text": "Synapse X Loader",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "StatusBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "Text": "Initializing...",
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    }
+  },
+  "Main": {
+    "Base": {
+      "Image": {
+        "Path": "ThemeGenForMain",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 70,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "WebSocket": {
+      "Enabled": false,
+      "DebugMode": false
+    },
+    "Editor": {
+      "Light": false,
+      "FixPixel": {
+        "A": 0,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "BaseStrings": {
+      "Checking": " | Performing Checks...",
+      "Injecting": " | Injecting...",
+      "CheckingWhitelist": " | Authenticating...",
+      "Scanning": " | Scanning...",
+      "Ready": " | Injected!",
+      "FailedToFindRoblox": " | Roblox is not open!",
+      "NotRunningLatestVersion": " | Outdated client!",
+      "NotInjected": " | Not injected!",
+      "AlreadyInjected": " | Already injected!"
+    },
+    "RightClickStrings": {
+      "Execute": "Execute",
+      "LoadToEditor": "Load to Editor",
+      "Refresh": "Refresh"
+    },
+    "Logo": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 150,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 16.0
+      },
+      "FormatString": "Synapse X",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 100,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExitButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Text": "Execute"
+    },
+    "ClearButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Text": "Clear"
+    },
+    "OpenFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Text": "Open File"
+    },
+    "ExecuteFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Text": "Execute File"
+    },
+    "SaveFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Text": "Save File"
+    },
+    "OptionsButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Text": "Options"
+    },
+    "AttachButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Text": "Attach"
+    },
+    "ScriptHubButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "TextNormal": "Script Hub",
+      "TextYield": "Loading..."
+    }
+  },
+  "ScriptHub": {
+    "Base": {
+      "Image": {
+        "Path": "ThemeGenForScriptHub",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 70,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "Logo": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 150,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 16.0
+      },
+      "Text": "Script Library",
+      "BackColor": {
+        "A": 0,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 100,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "DescriptionBox": {
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 100,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "TextNormal": "Execute",
+      "TextYield": "Executing..."
+    },
+    "CloseButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "Segoe UI",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 130,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Text": "Close"
+    }
+  }
+}
